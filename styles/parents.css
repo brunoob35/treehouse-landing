@@ -9,19 +9,30 @@
 }
 
 .yellow-gradient {
-    background: linear-gradient(to bottom, #FFDB94, white);
+    background: linear-gradient(to bottom, #9DB675, white);
 }
 
 /* Header and banner */
 header {
-    height: 25vh;
+    height: 10vh;
     width: 100vw;
     background-image: linear-gradient(to bottom, #FFDB94, white); 
 }
 
 #logo {
-    max-height: 300px;
+    max-height: 130px;
 }
+
+.banner-img{
+   clip-path: inset(50px 50px 50px 50px);
+}
+
+.bottom-left-image {
+    position: absolute;
+    bottom: 70vh;
+    left: 0;
+  }
+
 
 /* Gerneral classes*/
 .centralized {
