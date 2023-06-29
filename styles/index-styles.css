@@ -16,7 +16,6 @@
 header {
     height: 25vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, #FFDB94, white); 
 }
 
 #logo {
@@ -53,6 +52,36 @@ header {
 .column{
     flex-direction: column;
 }
+
+
+/* Image Stacked Banner*/
+.img-stack{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    position: relative;
+    align-items: end;
+}
+
+.item-top{
+    margin-bottom: 10px;
+    grid-row: 2/2;
+    grid-column: 1/5;
+    z-index: 2;
+}
+
+.item-mid{
+    width: 250px;
+    grid-row: 2/2;
+    grid-column: 1/5;
+    z-index: 1;
+}
+
+.item-bottom{
+    width: 400px;
+    grid-column: 1/10;
+    grid-row: 2/2;
+}
+
 
 /* Buttons */
 a{

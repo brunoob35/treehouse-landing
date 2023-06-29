@@ -12,11 +12,14 @@
     background: linear-gradient(to bottom, #FFDB94, white);
 }
 
+.red-gradient {
+    background: linear-gradient(to bottom, #ED8C73, white);
+}
+
 /* Header and banner */
 header {
     height: 10vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, #9DB675, white); 
 }
 
 #logo {
