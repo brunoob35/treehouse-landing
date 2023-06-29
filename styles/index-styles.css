@@ -55,6 +55,9 @@ header {
 }
 
 /* Buttons */
+a{
+    text-decoration: none;
+}
 .orange-btn {
     color: white;
     font-weight: bold;

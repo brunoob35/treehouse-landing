@@ -16,7 +16,7 @@
 header {
     height: 10vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, #9DB675, white); 
+    background-image: linear-gradient(to bottom, #D6EDFF, #F9FCFF); 
 }
 
 #logo {
@@ -91,7 +91,7 @@ a{
 footer{ 
     width: 100%;
     margin-top: 40px;
-    background-image: linear-gradient(to top, #9DB675, white);
+    background-image: linear-gradient(to top, #D6EDFF, #F9FCFF);
 }
 
 footer h1 {
