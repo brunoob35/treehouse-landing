@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Poppins:wght@100;200;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -15,7 +18,7 @@
 /* Header and banner */
 header {
     height: 25vh;
-    width: 100vw;
+    width: 100%;
 }
 
 #logo {
@@ -41,7 +44,9 @@ header {
 }
 .space-around{
     justify-content: space-around;
-
+}
+.space-between{
+    justify-content: space-between;
 }
 .justify-center{
     justify-content: center;
@@ -54,38 +59,56 @@ header {
 }
 
 
-/* Image Stacked Banner*/
-.img-stack{
+.big{
+    height: 100vh;
+    float: left;
+}
+
+/* Content grid*/
+.grid-display {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    justify-content: space-around;
+    align-content: center;
+}
+
+.title {
+    grid-column: 2/10;
+    grid-row: 1/1;
+    font-size: 5em;
+    font-family: 'Delius', cursive;
+}
+.text {
+    marging-top: 50px;
+    grid-column: 2/10;
+    grid-row: 2/3;
+}
+
+
+h1{
+    margin: auto;
+}
+/* Image buttons */
+
+.container {
+    display: inline-block;
     position: relative;
-    align-items: end;
+    align-content: center;
 }
 
-.item-top{
-    margin-bottom: 10px;
-    grid-row: 2/2;
-    grid-column: 1/5;
-    z-index: 2;
+.container figcaption {
+    position: absolute;
+    font-size: 2em; 
+    left: 30px;
+    bottom: 0;
+    color: white;
 }
 
-.item-mid{
-    width: 250px;
-    grid-row: 2/2;
-    grid-column: 1/5;
-    z-index: 1;
-}
-
-.item-bottom{
-    width: 400px;
-    grid-column: 1/10;
-    grid-row: 2/2;
-}
 
 
 /* Buttons */
 a{
-    text-decoration: none;
+    text-decoration: none;    
 }
 .orange-btn {
     color: white;
@@ -105,13 +128,15 @@ a{
     border: none;
 }
 
-/* Footer */
-footer{ 
-    width: 100%;
-    margin-top: 40px;
-    background-image: linear-gradient(to top, #FFDB94, white);
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-footer h1 {
-    margin-bottom: 100px;
+/* Footer */
+footer{
+    margin-top: 165px;
+    width: 100%;
+    //background-image: linear-gradient(to top, #FFDB94, white);
 }
