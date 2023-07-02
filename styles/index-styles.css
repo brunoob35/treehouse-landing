@@ -17,7 +17,7 @@
 
 /* Header and banner */
 header {
-    height: 25vh;
+    height: 22vh;
     width: 100%;
 }
 
@@ -79,11 +79,10 @@ header {
     font-family: 'Delius', cursive;
 }
 .text {
-    marging-top: 50px;
+    margin-top: 30px;
     grid-column: 2/10;
-    grid-row: 2/3;
+    grid-row: 3/3;
 }
-
 
 h1{
     margin: auto;
@@ -91,17 +90,14 @@ h1{
 /* Image buttons */
 
 .container {
+    margin-top: 30px;
     display: inline-block;
     position: relative;
     align-content: center;
 }
 
-.container figcaption {
-    position: absolute;
-    font-size: 2em; 
-    left: 30px;
-    bottom: 0;
-    color: white;
+#content-busca{
+    margin-top: 30px;
 }
 
 
@@ -110,6 +106,7 @@ h1{
 a{
     text-decoration: none;    
 }
+
 .orange-btn {
     color: white;
     font-weight: bold;
@@ -136,7 +133,11 @@ body {
 
 /* Footer */
 footer{
-    margin-top: 145px;
+    margin-top: 140px;
     width: 100%;
-    //background-image: linear-gradient(to top, #FFDB94, white);
+    /* background-image: linear-gradient(to top, #FFDB94, white); */
+}
+
+footer p {
+    margin-top: 50px;
 }
