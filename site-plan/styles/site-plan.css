@@ -8,8 +8,8 @@ Fonts are separated by a | */
   --primary-color: #9DB675;
   --secondary-color: #FFDB94;
   --tertiary-color: #ED8C73;
-  --forth-color: #D6EDFF
-  --accent1-color: #FA624A;
+  --forth-color: #D6EDFF;
+  --accent1-color: #fa624a;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Delius', cursive;
@@ -21,7 +21,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #FA624A  ;
+  --paragraph-background-color: #FA624A;
   --nav-link-color: #ffffff;
   --nav-background-color: #9DB675;
   --nav-hover-link-color: white;
