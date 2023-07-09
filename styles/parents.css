@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Poppins:wght@100;200;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -18,17 +21,61 @@
 
 /* Header and banner */
 header {
-    height: 10vh;
-    width: 100vw;
+    height: 15vh;
+    width: 100%;
 }
-
 #logo {
-    max-height: 130px;
+    max-height: 250px;
 }
 
-.banner-img{
-   clip-path: inset(50px 50px 50px 50px);
+.headerbutton{
+    font-weight: 1000;
+    color: black;
 }
+/* -----------------------*/
+
+
+/* Banner */
+.container{
+    height: 30vh;
+    background-image: url("/assets/Bannerpg21.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: bottom;
+    display: table-cell;
+    padding-left: 60px;
+    color: white;
+}
+
+.width30{
+    width: 30%;
+}
+.width70{
+    width: 70%;
+}
+
+mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    color: white;
+    background: linear-gradient(90deg, #9DB675 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+  
+  @-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+
 
 .bottom-left-image {
     position: absolute;

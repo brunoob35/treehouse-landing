@@ -17,12 +17,17 @@
 
 /* Header and banner */
 header {
-    height: 22vh;
+    height: 15vh;
     width: 100%;
 }
 
 #logo {
-    max-height: 300px;
+    max-height: 250px;
+}
+
+.headerbutton{
+    font-weight: 1000;
+    color: black;
 }
 
 /* Gerneral classes*/
@@ -33,7 +38,6 @@ header {
 .flex {
     display: flex;
     /* Center items horizontally */
-   
 }
 
 .center{
@@ -57,10 +61,13 @@ header {
 .column{
     flex-direction: column;
 }
+.content{
+    width: fit-content;
+}
 
 
 .big{
-    height: 100vh;
+    height: 75vh;
     float: left;
 }
 
@@ -128,15 +135,21 @@ a{
 
 body {
     min-height: 100vh;
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 
+section {
+    padding-bottom: 10vh;    /* Footer height */
+}
+
 /* Footer */
 footer{
-    margin-top: 140px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    /* background-image: linear-gradient(to top, #FFDB94, white); */
+    height: 10vh;      
 }
 
 footer p {
