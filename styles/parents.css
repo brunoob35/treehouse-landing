@@ -34,11 +34,10 @@ header {
 }
 /* -----------------------*/
 
-
 /* Banner */
 .container{
     height: 30vh;
-    background-image: url("/assets/Bannerpg21.jpg");
+    background-image: url("/assets/Bannerpg21");
     background-repeat: no-repeat;
     background-size: 100%;
     vertical-align: bottom;
@@ -113,6 +112,49 @@ mark {
 }
 .column{
     flex-direction: column;
+}
+
+/* Method section */
+.grid-container {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #9DB675;
+    padding: 10px;
+}
+
+.grid-iten {
+    align-items: center;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.icon{
+    max-width: 50px;
+    padding-bottom: 20px;
+}
+
+.bold{
+    font-weight: 2000;
+}
+
+.padding{
+    padding: 15px;
+    margin-block: 5px;
+}
+.spacing{
+    margin-top: 50px;
+}
+
+/* Buttons */
+.card{
+    width: 30%;
+    background-color: #FFDB94;
+}
+
+.border-radius{
+    border-radius: 30px;   
 }
 
 /* Buttons */
