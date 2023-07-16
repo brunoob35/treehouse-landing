@@ -58,8 +58,8 @@ header {
 .width30{
     width: 30%;
 }
-.width70{
-    width: 70%;
+.width50{
+    width: 50%;
 }
 
 mark {
@@ -138,6 +138,14 @@ mark {
     margin-top: 25px;
 }
 
+.grid-container4x4 {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 10px;
+}
+
 .icon{
     max-width: 50px;
     padding-bottom: 20px;
@@ -154,6 +162,9 @@ mark {
 
 .spacing{
     margin-top: 40px;
+}
+.spacing-bottom{
+    margin-bottom: 25px;
 }
 
 /* Buttons */
@@ -173,6 +184,7 @@ mark {
 /* Buttons */
 a{
     text-decoration: none;
+    color: black;
 }
 .orange-btn {
     color: white;
