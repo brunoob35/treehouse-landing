@@ -61,9 +61,7 @@ header {
 .column{
     flex-direction: column;
 }
-.content{
-    width: fit-content;
-}
+
 
 
 .big{
