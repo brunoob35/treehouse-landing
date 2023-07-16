@@ -45,7 +45,8 @@ header {
 /* Banner */
 .container{
     height: 30vh;
-    background-image: url("assets/bannerpg21.jpg");
+    background-image: url("https://raw.githubusercontent.com/brunoob35/treehouse-landing/main/assets/Bannerpg21.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
     vertical-align: bottom;

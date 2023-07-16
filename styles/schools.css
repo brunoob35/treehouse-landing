@@ -45,7 +45,7 @@ header {
 /* Banner */
 .container{
     height: 30vh;
-    background-image: url("/assets/schoolboy.jpeg");
+    background-image: url("https://github.com/brunoob35/treehouse-landing/blob/main/assets/schoolboy.jpeg?raw=true");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
