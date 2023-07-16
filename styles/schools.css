@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poppins:wght@100;200;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +15,16 @@
     background: linear-gradient(to bottom, #FFDB94, white);
 }
 
-.blue-gradient {
-    background: linear-gradient(to bottom, #D6EDFF, #F9FCFF);
+.red-gradient {
+    background: linear-gradient(to bottom, #ED8C73, white);
+}
+
+.green {
+    background-color: #9DB675;
+}
+
+.orange {
+    background-color: #ED8C73;
 }
 
 /* Header and banner */
@@ -31,12 +40,50 @@ header {
     font-weight: 1000;
     color: black;
 }
-/* Header and banner end*/
+/* -----------------------*/
 
-
-.banner-img{
-   clip-path: inset(50px 50px 50px 50px);
+/* Banner */
+.container{
+    height: 30vh;
+    background-image: url("/assets/schoolboy.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: bottom;
+    display: table-cell;
+    padding-left: 60px;
+    color: white;
 }
+
+.width30{
+    width: 30%;
+}
+.width70{
+    width: 70%;
+}
+
+mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    color: white;
+    background: linear-gradient(90deg, #9DB675 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+  
+  @-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+
 
 .bottom-left-image {
     position: absolute;
@@ -76,6 +123,53 @@ header {
     flex-direction: column;
 }
 
+/* Method section */
+.grid-container {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-iten {
+    align-items: center;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.icon{
+    max-width: 50px;
+    padding-bottom: 20px;
+}
+
+.bold{
+    font-weight: 2000;
+}
+
+.padding{
+    padding: 15px;
+    margin-block: 5px;
+}
+
+.spacing{
+    margin-top: 40px;
+}
+
+/* Buttons */
+.card{
+    width: 30%;
+    background-color: #FFDB94;
+}
+
+.border-radius{
+    border-radius: 15px;   
+}
+
+.teachers-img {
+    width: 80px;
+}
+
 /* Buttons */
 a{
     text-decoration: none;
@@ -103,7 +197,7 @@ a{
 footer{ 
     width: 100%;
     margin-top: 40px;
-    background-image: linear-gradient(to top, #D6EDFF, #F9FCFF);
+    background-image: linear-gradient(to top, #9DB675, white);
 }
 
 footer h1 {

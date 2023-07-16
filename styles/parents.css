@@ -45,7 +45,7 @@ header {
 /* Banner */
 .container{
     height: 30vh;
-    background-image: url("/assets/bannerpg21.jpg");
+    background-image: url("assets/bannerpg21.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     vertical-align: bottom;
