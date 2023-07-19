@@ -65,7 +65,6 @@ header {
 mark {
     -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
             animation: 1.5s highlight 1.5s 1 normal forwards;
-    background-color: none;
     color: white;
     background: linear-gradient(90deg, #9DB675 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 200% 100%;
@@ -152,7 +151,7 @@ mark {
 }
 
 .bold{
-    font-weight: 2000;
+    font-weight: 1000;
 }
 
 .padding{
